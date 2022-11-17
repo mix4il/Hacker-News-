@@ -1,7 +1,6 @@
 import React from 'react'
 import { useHistory } from 'react-router-dom'
-import dateFormatter from '../utils/dateFormatter'
-import Preloader from './Preloader'
+import dateFormatter from '../../utils/dateFormatter'
 
 
 interface NewsProps {

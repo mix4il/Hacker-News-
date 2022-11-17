@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import IComment from '../../types/IComment';
 import dateFormatter from '../../utils/dateFormatter';
-import fetchCommentsKids from '../api/fetchCommentsKids';
+import fetchCommentsKids from '../../api/fetchCommentsKids';
 
 import style from './Comment.module.scss';
 
@@ -41,10 +41,10 @@ const Comment: React.FC<CommentProps> = ({ by, id, kids, text, time }) => {
       ) : null}
       {isShowAnswers
         ? answers.map((answer) => (
-            <div className={style.comment__padding}>
-              <Comment key={answer.id} {...answer} />
-            </div>
-          ))
+          <div className={style.comment__padding}>
+            <Comment key={answer.id} {...answer} />
+          </div>
+        ))
         : ''}
     </div>
   );

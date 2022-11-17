@@ -2,7 +2,7 @@ import React, { useEffect} from 'react';
 import { useDispatch } from 'react-redux';
 import { useTypedSelector } from '../../hooks/useTypedSelector';
 import { fetchNews } from '../../store/ActionCreator/newsAction';
-import NewsItem from '../NewsItem';
+import NewsItem from '../NewsItem/NewsItem';
 import Preloader from '../Preloader';
 
 const NewsList: React.FC = () => {

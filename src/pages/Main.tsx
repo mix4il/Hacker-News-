@@ -1,6 +1,6 @@
 import React from 'react'
 import ButtonReloadNews from '../components/ButtonReloadNews'
-import Header from '../components/Header'
+import Header from '../components/Header/Header'
 import NewsList from '../components/NewsList'
 
 const Main = () => {

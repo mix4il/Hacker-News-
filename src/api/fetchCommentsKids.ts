@@ -1,5 +1,5 @@
 import axios from 'axios';
-import IComment from '../../types/IComment';
+import IComment from '../types/IComment';
 
 export default async function fetchComments(kids: number[]) {
   const comments: IComment[] = await Promise.all(

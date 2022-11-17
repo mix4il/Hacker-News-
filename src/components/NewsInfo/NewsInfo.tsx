@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import INews from '../../types/INews';
 import dateFormatter from '../../utils/dateFormatter';
-import { fetchNewsItem } from '../api/fetchNews';
+import { fetchNewsItem } from '../../api/fetchNews';
 
 import style from './NewsInfo.module.scss';
 
