@@ -1,6 +1,7 @@
 # Hacker News UI for API
 
 ## О проекте
+Приложение является интрефесом для API Hacker News
 
 ## Запуск проекта 
 ### 1.Клонируйте репозиторий 
@@ -17,11 +18,13 @@
    yarn start
  ```
 
-# Приложение запустится по адресу [http://localhost:3000](http://localhost:3000)
+### Приложение запустится по адресу [http://localhost:3000](http://localhost:3000)
 
 ## В данном проекте были применены технологии:
 * React
 * Redux
+* Typescript
+* React router dom
 * Axios
 * scss
 
