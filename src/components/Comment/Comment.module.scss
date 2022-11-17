@@ -1,0 +1,28 @@
+.comment{
+    padding: 10px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: 25px 0;
+
+    &__title{
+
+    }
+
+    &__html{
+        a{
+            color: blue;
+        }
+
+    }
+
+    &__show{
+        color: orange;
+        font-size: 20px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    &__padding{
+        padding: 0 0 0 50px;
+    }
+}

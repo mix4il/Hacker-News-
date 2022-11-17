@@ -1,0 +1,12 @@
+.spinner{
+    display:inline-block;
+    border-radius: 50%;
+    border: 10px dotted black;
+    animation: preloader-rotate 3s infinite linear;
+
+    @keyframes preloader-rotate {
+        100% {
+            transform: rotate(360deg);
+          }
+    }
+}

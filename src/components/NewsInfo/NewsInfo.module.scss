@@ -1,0 +1,29 @@
+.wrapper{
+    margin-top: 10px;
+    padding: 50px;
+    background-color: white;
+}
+
+.news{
+    &__title{
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    &__link{
+        font-size: 35px;
+        font-weight: 700;
+        text-decoration: underline;
+        color: rgb(240, 152, 36);
+    }
+
+    &__text{
+        font-size: 18px;
+        font-weight: 600;
+        color: rgb(79, 79, 79);
+    }
+
+    &__center{
+        margin: 10px 0;
+    }
+}

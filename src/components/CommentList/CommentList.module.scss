@@ -1,0 +1,12 @@
+.wrapper{
+    margin-top: 10px;
+    padding: 50px;
+    background-color: white;
+}
+
+.comments{
+    &__title{
+        font-size: 35px;
+        font-weight: 900;
+    }
+}
